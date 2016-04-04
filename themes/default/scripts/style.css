@@ -1,4 +1,4 @@
-*=================================*/
+/*=================================*/
 /* Most settings taken from:
 /* Pico Default Theme
 /* By: Gilbert Pellegrom
@@ -484,4 +484,31 @@ section {
     #header nav:hover ul {
         display: block;
     }
+
+
+
 }
+
+/* Dropdown Navigation */
+
+li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+    margin-top:-0.3em;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+
+.dropdown {
+  margin-left:1.5em;
+  text-align:center;
+  float:center;
+}
+
+
+/* AJAX Page */
+

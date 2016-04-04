@@ -1,67 +1,83 @@
 ---
-Title: Home
-Template: blog
+Title: Directory Listing
+Template: index
 ---
 
+<table id="dir" style="text-align:center;">
 
-# Directory Listing
-
-<table id="dir" style="text-align:left;">
 <tbody>
 <tr>
     <td id="dir">
-     <li>
+     <li style="list-style-type:square;">
+      2016 Apr
+     </li>
+    </td>
+    <td id="dir">|</td>
+    <td id="dir"><i><a href="./?blogs%2Fsqlwp">Changing URL/Domain for WordPress</a></i></td>
+</tr>
+<tr>
+    <td id="dir">
+     <li style="list-style-type:square;">
+      2016 Apr
+     </li>
+    </td>
+    <td id="dir">|</td>
+    <td id="dir"><i><a href="./?blogs%2Frsas">R-CRAN Data Export</a></i></td>
+</tr>
+<tr>
+    <td id="dir">
+     <li style="list-style-type:square;">
       2015 Dec
      </li>
     </td>
     <td id="dir">|</td>
-    <td id="dir"><i><a href="./blog/cnn.md">Summary of Convolutional Neural Nets</a></i></td>
+    <td id="dir"><i><a href="./?guides%2Fcnn">Summary of Convolutional Neural Nets</a></i></td>
 </tr>
 <tr>
     <td id="dir">
-     <li>
+     <li style="list-style-type:square;">
       2015 Dec
      </li>
     </td>
     <td id="dir">|</td>
-    <td id="dir"><i><a href="./blog/ecc.md">Pollard's <i>p</i> on Elliptic Curves</a></i></td>
+    <td id="dir"><i><a href="./?guides%2Fecc">Pollard's <i>p</i> on Elliptic Curves</a></i></td>
 </tr>
 <tr>
     <td id="dir">
-     <li>
+     <li style="list-style-type:square;">
       2015 Nov
      </li>
     </td>
     <td id="dir">|</td>
-    <td id="dir"><i><a href="../other/aes/">AES</a></i></td>
+    <td id="dir"><i><a href="./other/aes/">AES</a></i></td>
 </tr>
 <tr>
     <td id="dir">
-     <li>
+     <li style="list-style-type:square;">
       2015 Nov 
      </li>
     </td>
     <td id="dir">|</td>
-    <td id="dir"><i><a href="../other/prolog/">RRSP Planner in Prolog</a></i></td>
+    <td id="dir"><i><a href="./other/prolog/">RRSP Planner in Prolog</a></i></td>
 </tr>
 <tr>
     <td id="dir">
-     <li>
+     <li style="list-style-type:square;">
       2015 May
      </li>
     </td>
     <td id="dir">|</td>
-    <td id="dir"><i><a href="../other/sandbox/">PHP Sandbox</a></i> (private)</td>
+    <td id="dir"><i><a href="./other/sandbox/">PHP Sandbox</a></i> (Unavailable)</td>
 </tr>
 
 <tr>
     <td id="dir">
-     <li>
+     <li style="list-style-type:square;">
       2014 Nov
      </li>
     </td>
     <td id="dir">|</td>
-    <td id="dir"><i><a href="../other/prolog/">Working with JOGL</a></i></td>
+    <td id="dir"><i><a href="./other/jogl/">Working with JOGL</a></i></td>
 </tr>
 </tbody>
 </table>
